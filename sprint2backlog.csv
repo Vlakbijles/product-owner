@@ -1,0 +1,11 @@
+ID,Thema,Als,Ik wil,om ,Prioriteit,Deadline,Notes
+1,Website ,Developer,Hoe wil ik zoeken op bijles en hoe wil ik die resultaten weergeven. Doe ik dit op locatie allereerst en krijg ik dan offers met vak en niveau? Locatie + vak en dan niveau's,,High,,"Communicatie met API over hoe dit het beste
+Kan met de API"
+2,Website ,Gebruiker,"een account creëeren met mijn gegevens zoals voornaam, achternaam en email. Ik wil mijn account kunnen linken met facebook indien ik bijles wil geven, kan ik hier de vakken aangeven. ",bijles te kunnen volgen/geven,High,Deze week,Data kunnen opslaan
+3,Website ,Gebruiker,Inloggen met mijn email,,High,Deze week,Nodige login checks en een token
+4,Website ,Gebruiker,Mijn profielpagina kunnen bekijken waar ik mijn ratings en review per leerling zie. Waarbij ik kan zien in welk vak ik diegene bijles heb gegeven.  Een link naar mijn facebookaccount en  contactgegevens moeten er te vinden zijn. ,Te zien hoe goed ik het doe. In welke vakken ik het beter doe en wat ik daar dus beter kan doen.,High,Deze week,
+5,Website ,Gebruiker,Op mijn profielpagina moet mijn eigen description staan en de vakken waar ik bijles in geef.,,,,
+6,Website ,Gebruiker,Op de profielpagina van mensen die geen bijles geven de reviews die zij anderen hebben gegeven zien. ,Te kunnen zien hoelang zij als bijles hebben in bepaalde vakken en of zij betrouwbaar zijn wat betreft de reviews die zij geven. ,,,
+7,Website ,Gebruiker,van een review kunnen zien door wie die is geplaatst. Er moet ook bij staan in welk bijles werd gegeven en op welk niveau,,,,
+8,App,Developer,Queries doen naar de API en data opvragen,"dit te implementeren in de app
+En weer te kunnen geven",High,Deze week (?),Communicatie met API 

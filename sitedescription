@@ -1,0 +1,95 @@
+Homepage
+
+Inhoud:
+Lay-out plus zoekbar (vul in: gewenste vak en postcode).
+Website reviews onderin a la ticketswap (optioneel).
+
+Functionaliteit:
+Zoeken naar bijles waarna je naar de marktplaats pagina wordt gestuurd.
+Login en Registratie.
+Naar profielpagina kunnen gaan.
+
+Communicatie met API/Database:
+Stuur request met postcode en vak naar de server
+
+------------------------------------------------------------------------------------------
+
+Login (popup)
+
+Inhoud:
+Popup met vak voor email en wachtwoord.
+
+Functionaliteit:
+Inloggen met email en wachtwoord -> UI voor ingelogde gebruiker.
+
+Communicatie met API/Database:
+Valideer de login en creëer en return een token die 7 dagen geldig is.
+Update de last_login waarde in de database.
+
+------------------------------------------------------------------------------------------
+
+Registratie (mogelijke popup)
+
+Inhoud:
+Form waar gegevens kunnen worden ingevoerd.
+Log-in button voor Facebook login.
+
+Functionaliteit:
+Account creëeren met gegevens: voornaam, achternaam, contactgegevens, wachtwoord, geslacht
+                            en vakken waarin bijles wordt gegeven (eventueel) en postcode.
+Mogelijkheid om te kunnen linken met je facebook waarna de FB button verdwijnt en die
+bepaalde gegevens niet meer kunnen worden aangepast.
+
+Check of het een valide postcode is.
+
+Communicatie met API/Database:
+Sla deze gegevens op in de database met een join_date.
+Sla aan de hand van de postcode ook de longitude en latitude op.
+
+------------------------------------------------------------------------------------------
+
+Profielpagina
+
+Inhoud:
+Profielfoto met naam.
+Contactgegevens.
+Indien de gebruiker bijles geeft worden de reviews en ratings van zijn bijlessen getoond.
+Tevens wordt dan de vakken waarin bijles kan worden gegeven getoond.
+
+Indien de gebruiker geen bijles geeft, worden de reviews die de gebruiker heeft geschreven
+getoond.
+
+Functionaliteit
+Profielpagina aanpassen. Alle gegevens behalve de naam en de reviews moeten kunnen worden
+veranderd.
+Link naar Facebook pagina en email.
+
+Communicatie met API/Database:
+Haal gegevens van gebruiker op
+Haal reviews op die gebruiker heeft geplaatst of heeft gekregen. Die reviews bevatten ook
+de offer (dus vak en niveau).
+
+
+In het geval van een aanpassing moeten deze waarden in de database worde.n aangepast
+
+------------------------------------------------------------------------------------------
+
+Marktplaats
+
+Inhoud:
+Lijst met bijles aanbiedingen met aanbieder, vak, niveau en rating van de aanbieder.
+De aanbieding linkt naar de profielpagina van de aanbieder.
+Button om het sorteren aan te passen.
+Mogelijkheid om aan te geven op welke afstand iemand bijles wilt volgen.
+
+Functionaliteit:
+Sorteren op basis van afstand of rating.
+Link naar profielpagina.
+
+Communicatie van API/Database:
+Op basis van de request vanuit de zoekfunctie wordt een list met offers teruggestuurd.
+Die offers zijn ook binnen een bepaalde afstand (met standaard value = 10 km).
+Offers vanuit de database en via de user_id de ratings krijgen.
+Met die ratings het gemiddelde uitrekenen per user.
+
+
