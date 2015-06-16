@@ -92,4 +92,17 @@ Die offers zijn ook binnen een bepaalde afstand (met standaard value = 10 km).
 Offers vanuit de database en via de user_id de ratings krijgen.
 Met die ratings het gemiddelde uitrekenen per user.
 
+------------------------------------------------------------------------------------------
 
+Over ons
+
+Inhoud:
+Kleine pagina met informatie over ons concept en onze filosofie.
+Vertel over waarom dit zo betrouwbaar is en hoe goed het werkt.
+Contact met de VlakBijles eigenaren.
+
+Functionaliteit
+..
+
+Communicatie met API/Database:
+..
