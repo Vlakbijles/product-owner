@@ -1,0 +1,28 @@
+﻿Introductie  (Dieren)
+
+Vlakbijles is een bijles waarop mensen bijles in bepaalde vakken of studies kunnen aanbieden en afnemen. Uit eigen ervaring leerden wij dat bijles geven via een bedrijf niet altijd ideaal is. Met VlakBijles kunnen mensen direct bijles aanbieden of zelf kiezen van wie ze bijles krijgen. Door gebruikers te koppelen met hun Facebook account kunnen mensen zien met wie ze precies te maken hebben. Mensen kunnen zelf kiezen of bijlesdocenten betrouwbaar of geschikt genoeg zijn om hun bijles te geven. 
+
+Doelstellingen (Mensen)
+
+Vooraf wilden wij naast een site ook een Android app en een ios app maken. Om vanuit meerdere platforms te kunnen communiceren met de server wilden we een API maken. De focus zou liggen op de website, wat het platform is waar mensen voornamelijk op bijles zullen zoeken. De apps zullen een meer supportive rol innemen waarop mensen gemakkelijk naar bijles kunnen zoeken maar niet aanbieden. De app en de website zullen dus niet dezelfde functionaliteit hebben.
+
+API (Govert & Boudewijn)
+
+ De API is geschreven in Python en er wordt gebruik gemaakt van flask. De API heeft een restful design en blablbala
+
+
+Website (Mark, Robin, Mees) 
+
+De website is geschreven in php. Tevens wordt er gebruik gemaakt van ajax and javascript. 
+
+Een van de steunpilaren van ons concept is de verificatie door middel van Facebook. Uiteindelijk is ervoor gekozen om standaard in te loggen met Facebook. Via het Facebook account wordt persoonlijke informatie opgevraagd die wordt opgeslagen en wordt laten zien op de profielpagina. Nadat een gebruiker is geregistreerd, wordt hij/zij ingelogd en niet meer uitgelogd behalve als de gebruiker een lange periode inactief is. Dit garandeert natuurlijk niet dat het allemaal 100% betrouwbaar is, maar het helpt wel. Ticketswap maakt hier ook gebruik van en daar levert het voorlopig goede resultaten op.
+	De belangrijkste functie van de website is het zoeken van bijlesaanbiedingen. Op de homepage staat een zoekbalk waar een vak en een postcode kan worden ingevuld. Als dat correct is ingevuld, wordt er een lijst met bijlesaanbiedingen getoond. Deze bijlesaanbieding laat de naam, foto van de bijlesaanbieder zien. Tevens wordt het aantal recensies die over hem/haar zijn geschreven en het aantal aanbevelingen getoond. Ook staat er de afstand tot de ingevulde postcode bij. Hiermee kan de gebruiker goed inschatten welke bijlesaanbieding het beste voor hem of haar is. Deze lijst kan gesorteerd worden op de afstand, aantal aanbevelingen en het aantal recensies. Er kan ook een maximale afstand worden aangegeven zodat aanbiedingen die te ver zijn niet worden getoond. 
+	Aangezien vakken op verschillende niveau's kunnen worden aangeboden, kan de lijst met aanbiedingen ook worden gefilterd op niveau, zodat gebruikers alleen aanbiedingen zien die relevant zijn voor hun niveau. 
+
+Wanneer de klant een geschikte bijlesaanbieding heeft, wordt deze doorverwezen naar de profielpagina van de bijlesaanbieder. Hierop zijn persoonlijke gegevens als naam en locatie te vinden. Daarnaast zijn de vakken waarin dit persoon bijles geeft te vinden. Er is ook te vinden wie hem heeft aanbevolen en hoe vaak hij in totaal is aanbevolen. Onder de persoonlijke gegevens staan recensies die mensen hebben achtergelaten en over welk vak die recensies gaan.
+	Indien een gebruiker is ingelogd, kan hij ook een andere gebruiker een email sturen, indien deze gebruiker op dat moment vakken aanbiedt. Er kan dan een berichtje over een specifiek bijlesaanbieding worden gestuurd. Ook kan de gebruiker een recensie achterlaten op het profiel van de gebruiker. Dit kan wederom alleen als er op dat moment een vak wordt aangeboden. 
+	Op het eigen profiel kan de gebruiker zijn of haar profiel aanpassen en mogelijke bijlesvakken toevoegen/verwijderen.  Een gebruiker kan haar email, postcode en beschrijving aanpassen. Een gebruiker kan geen recensies verwijderen of zijn naam aanpassen. De naam is via Facebook verkregen wat de kans groter maakt dat dit een correcte naam is. De foto is gelinkt naar de facebook profielfoto dus die kan alleen verandert worden op de facebook site zelf. 
+
+APP (Tycho)
+
+BLABLA
